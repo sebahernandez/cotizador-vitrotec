@@ -1,0 +1,84 @@
+/* Estilos personalizados para el formulario */
+.cotizador-container {
+    max-width: 32rem;
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+}
+
+.cotizador-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.cotizador-container label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+.cotizador-container input, 
+.cotizador-container select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #2d3748;
+}
+
+.cotizador-container input:focus, 
+.cotizador-container select:focus {
+    outline: none;
+    border-color: #63b3ed;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.cotizador-container button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.cotizador-container .btn-calcular {
+    background-color: #4299e1;
+}
+
+.cotizador-container .btn-calcular:hover {
+    background-color: #2b6cb0;
+}
+
+.cotizador-container .btn-enviar {
+    background-color: #48bb78;
+}
+
+.cotizador-container .btn-enviar:hover {
+    background-color: #2f855a;
+}
+
+.cotizador-container .precio-total {
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3182ce;
+    margin-top: 1rem;
+}
+
+.cotizador-container .error-message {
+    color: #e53e3e;
+    text-align: center;
+    margin-top: 1rem;
+}
